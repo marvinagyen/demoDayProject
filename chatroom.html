@@ -1,0 +1,47 @@
+<!Doctype html>
+<html> 
+    <head>
+        <title>R2P Profile</title>
+
+        <link rel = "Stylesheet" href = "styles.css">     
+        <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+        <script>
+
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAqKnlINiRpAjXTNZyUu38BrszHFupaGsI",
+            authDomain: "demoday-32930.firebaseapp.com",
+            databaseURL: "https://demoday-32930.firebaseio.com",
+            projectId: "demoday-32930",
+            storageBucket: "demoday-32930.appspot.com",
+            messagingSenderId: "126874328283"
+            };
+        firebase.initializeApp(config);
+        </script>
+        <script src = "main.js" defer> </script>
+    </head>
+    <body> 
+    <div class= "CHAT"> 
+    
+    <div class = "userContainer">
+        <form> 
+             <div class = "inputContainer"> 
+                
+                <div class = "singleInput"> 
+                    <label for = "username">Your name:</label>
+                    <input id = "user" type = "text">
+                </div>
+                
+                <div class = "singleInput">
+                    <label for ="message">Message: </label>
+                    <input id = "msg" type = "text">
+                </div>
+
+
+             </div>
+            <button id = "submit">Submit</button>
+        </form>
+    </div>
+</div>
+    </body>
+</html>      
