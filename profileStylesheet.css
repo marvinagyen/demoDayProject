@@ -4,8 +4,9 @@
 }
 
 html,body {
-    background: #efefef;
+    background: lavender;
     font-family: "Arial";
+    color: black;
   }
   
   .container {
@@ -19,7 +20,7 @@ html,body {
   
   header {
     background: #eee;
-    background-image: url("https://image.noelshack.com/fichiers/2017/38/2/1505775648-annapurnafocus.jpg");
+    background-image: url("https://prod-discovery.edx-cdn.org/media/course/image/08f162d1-6943-490b-8e0b-ee6fd5ab256e-563c6279e6ce.small.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -261,4 +262,15 @@ html,body {
     top: 10px;
     left: 40%;
     text-align: center;
+}
+
+#messages {
+  border-style: groove;
+  border-width: thick;
+  border-color:gray;
+  background-color: lightgray;
+}
+
+#post {
+  font-family: 'Times New Roman', Times, serif;
 }

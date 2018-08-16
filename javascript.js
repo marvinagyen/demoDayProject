@@ -1,7 +1,7 @@
-var database = firebase.database().ref();
+var database = firebase.database().ref("JavaScript/");
 
 // createContainer 
-var chatContainer = document.querySelector("right col-lg-8");
+var chatContainer = document.querySelector(".CHAT");
 
 // eventListener 
 
@@ -13,6 +13,7 @@ function addMessageToChat(rowData){
     var name = row.PROFILENAME;
     var text = row.TXTMSG;
     // add message into the chat
+
     let pElem = document.createElement("p");
     pElem.innerText = name + ": " + text;
     chatContainer.appendChild(pElem);

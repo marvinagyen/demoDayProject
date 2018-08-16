@@ -13,7 +13,7 @@
     <!-- CSS -->
    <link rel = "stylesheet" href = "profileStylesheet.css">
    <!-- JavaScript -->
-   <script src = "scripts.js"> defer </script>
+   <script src = "scripts.js" defer>  </script>
 
    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
    <script>
@@ -32,60 +32,49 @@
     </head> 
     <body>
 
-    <header> <img src = "assets/cooltext295639698786695.png"> </header>
-    
-
-    <div id="userdiv">
-            <p id="username">Username</p>
-            <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">INTERESTS
-                    <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                    <li><a href="algebra.html">Algebra 2</a></li>
-                    <li><a href="#">US History</a></li>
-                    <li><a href="#">JavaScript</a></li>
-                  </ul>
-            </div>
-        </div>
-
+    <!-- <header> <img src = "assets/cooltext295639698786695.png"> </header> -->
         <div class="container">
                 <header>
+                    <a href="main.html"><img id="logo" src="assets/cooltext295639698786695.png"></a>
                   <i class="fa fa-bars" aria-hidden="true"></i>
                 </header>
                 <main>
+                  
                   <div class="row">
                     <div class="left col-lg-4">
                       <div class="photo-left">
-                        <img class="photo" src="https://www.headshotsnyc.com/wp-content/uploads/galleries/post-17/02-teenage-boy-actor-legit-theatrical-headshot-brown-curly-hair.jpg"/>
+                        <img class="photo" src="https://teenlife.s3.amazonaws.com/media/uploads/blogs/authors/EvanBerkowitzHeadshot.JPG"/>
                         <div class="active"></div>
                       </div>
-                      <h4 class="name">Jane Doe</h4>
-                      <p class="info">UI/UX Designer</p>
-                      <p class="info">jane.doe@gmail.com</p>
+                      <h4 class="name">Blake Williams</h4>
+                      <p class="info">Interested in Algebra, US History and JavaScript</p>
+                      <p class="info">Bwilliams</p>
                       <div class="stats row">
                         <div class="stat col-xs-4" style="padding-right: 50px;">
-                          <p class="number-stat">3,619</p>
-                          <p class="desc-stat">Followers</p>
+                          <p class="number-stat">6</p>
+                          <p class="desc-stat">Friends</p>
                         </div>
                         <div class="stat col-xs-4">
-                          <p class="number-stat">42</p>
+                          <p class="number-stat">3</p>
                           <p class="desc-stat">Following</p>
                         </div>
                         <div class="stat col-xs-4" style="padding-left: 50px;">
-                          <p class="number-stat">38</p>
-                          <p class="desc-stat">Uploads</p>
+                          <p class="number-stat">6</p>
+                          <p class="desc-stat">Posts</p>
                         </div>
                       </div>
-                      <p class="desc">Hi ! My name is Jane Doe. I'm a UI/UX Designer from Paris, in France. I really enjoy photography and mountains.</p>
+                      <p class="desc"> </p>
                       <div class="social">
                         <i class="fa fa-facebook-square" aria-hidden="true"></i>
                         <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                        <i class="fa fa-pinterest-square" aria-hidden="true"></i>
                         <i class="fa fa-tumblr-square" aria-hidden="true"></i>
+                        <i class="fa fa-youtube-square" aria-hidden="true"></i>
                       </div>
                     </div>
-                    <div class="right col-lg-8">
-                      <h3 id = ""> POSTS </h3>
+                    <div id="messages" class="right col-lg-8">
+                      <h3 id = "post"> POSTS </h3>
+
+                      
                         </div>
                       </div>
                     </div>

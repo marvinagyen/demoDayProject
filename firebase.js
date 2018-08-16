@@ -2,12 +2,10 @@
 var usernameElem = document.getElementById("user");
 var messageElem = document.getElementById("msg");
 var btn = document.getElementById("submit");
-xcc
 // Call Function when Clicking Button
 btn.addEventListener("click", updateDB);
 
-var database = firebase.database().ref("Algebra/");
-console.log(database);
+var database = firebase.database().ref();
 
 // Create Function
 function updateDB (event) {
